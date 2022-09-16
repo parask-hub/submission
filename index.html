@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h2> Registration Form</h2>
+        <div>
+
+            <form class="form-ele">
+                <label for=" name">Name : </label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email : </label>
+                <input type="email" id="email" name="email">
+
+                <label for="password">Password : </label>
+                <input type="password" id="password" name="password">
+
+                <label for="dob">Date of Birth : </label>
+                <input type="date" id="dob" name="dob">
+                <div class="chkbx">
+                    <input type="checkbox" id="acceptTerm" name="acceptTerms">
+                    <label for="acceptTerm">Accept Terms & Conditions</label>
+
+                </div>
+
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <table>
+        <thead>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Dob</th>
+            <th>Accepted Terms?</th>
+        </thead>
+    </table>
+    <script src="scr.js"></script>
+</body>
+
+</html>
